@@ -1,0 +1,73 @@
+# .gitignore 
+# .gitignore
+
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore environment-specific files
+.env
+.env.local
+.env.*.local
+
+# Ignore the system folder (e.g., __MACOSX)
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Ignore log and temporary files
+*.log
+*.log.*
+*.tmp
+
+# Ignore IDE-specific files
+.idea/
+.vscode/
+
+# Ignore database files
+*.sqlite3
+*.db
+*.db-journal
+
+# Ignore generated files
+__generated__/
+_generated_/
+
+# Ignore coverage output
+.coverage
+htmlcov/
+
+# Ignore pipenv virtual environment
+Pipfile
+Pipfile.lock
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore Docker-related files
+Dockerfile
+docker-compose.yml
+
+# Ignore compiled Java classes
+*.class
+
+# Ignore npm package-lock files
+package-lock.json
+
+# Ignore yarn lock file
+yarn.lock
+
+# Ignore virtual environment
+venv/
+env/
+
+# Ignore local development files
+*.local.yml
+
+# Ignore .DS_Store in folders
+**/.DS_Store
+
+# Ignore node_modules folder
+node_modules/
